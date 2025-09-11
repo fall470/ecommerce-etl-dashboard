@@ -6,7 +6,6 @@
 
 Ce projet a pour objectif de transformer un jeu de données e-commerce brut disponible sur *Kaggle* en informations exploitables grâce à un processus *ETL avec Python* et une *visualisation interactive sur Looker Studio*.
 
-
 ## ⚙ Étapes du projet
 
 ### 1. 📂 Chargement & Nettoyage des données
@@ -15,7 +14,7 @@ Ce projet a pour objectif de transformer un jeu de données e-commerce brut disp
 * Gestion des valeurs manquantes.
 * Suppression des doublons.
 * Conversion des dates.
-* Export du fichier nettoyé en ecommerce_clean.csv.
+* Export du fichier nettoyé en `ecommerce_clean.csv`.
 
 ### 2. 🔎 Analyses et transformations
 
@@ -24,7 +23,7 @@ Ce projet a pour objectif de transformer un jeu de données e-commerce brut disp
 * Analyse par catégorie de produits.
 * Analyse des méthodes de paiement.
 * Étude des retours clients.
-* Export des résultats dans plusieurs CSV (customer_segmentation.csv, product_category_analysis.csv, etc.).
+* Export des résultats dans plusieurs CSV (`customer_segmentation.csv`, `product_category_analysis.csv`, etc.).
 
 ### 3. 📊 Visualisation
 
@@ -40,4 +39,14 @@ Création d’un *dashboard interactif* sur *Looker Studio* permettant de suivre
 * *Python (Pandas, NumPy)*
 * *Jupyter Notebook*
 * *Looker Studio*
-  
+
+## ✅ Conclusion
+
+Ce projet m’a permis de mettre en pratique un pipeline *ETL complet*, depuis le traitement de données brutes jusqu’à la création d’un dashboard interactif.
+Il démontre l’importance de la **qualité des données** et de leur **visualisation** pour aider à la prise de décision.
+
+👉 Ce projet peut servir de base pour des cas réels dans le domaine de l’**e-commerce** et être enrichi avec des techniques avancées de *Machine Learning* pour la prédiction des ventes et le scoring client.
+
+---
+
+Veux-tu que je rajoute aussi une section **📸 Aperçu du Dashboard** (avec un lien vers ta capture ou une image) pour rendre le README plus attractif ?
