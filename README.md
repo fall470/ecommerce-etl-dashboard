@@ -36,7 +36,7 @@ Création d’un *dashboard interactif* sur *Looker Studio* permettant de suivre
 
 ## 🚀 Technologies utilisées
 
-* *Python (Pandas, NumPy)*
+* *Python (Pandas)*
 * *Jupyter Notebook*
 * *Looker Studio*
 
