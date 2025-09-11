@@ -45,8 +45,5 @@ Création d’un *dashboard interactif* sur *Looker Studio* permettant de suivre
 Ce projet m’a permis de mettre en pratique un pipeline *ETL complet*, depuis le traitement de données brutes jusqu’à la création d’un dashboard interactif.
 Il démontre l’importance de la **qualité des données** et de leur **visualisation** pour aider à la prise de décision.
 
-👉 Ce projet peut servir de base pour des cas réels dans le domaine de l’**e-commerce** et être enrichi avec des techniques avancées de *Machine Learning* pour la prédiction des ventes et le scoring client.
+ Ce projet peut servir de base pour des cas réels dans le domaine de l’**e-commerce** et être enrichi avec des techniques avancées de *Machine Learning* pour la prédiction des ventes et le scoring client.
 
----
-
-Veux-tu que je rajoute aussi une section **📸 Aperçu du Dashboard** (avec un lien vers ta capture ou une image) pour rendre le README plus attractif ?
