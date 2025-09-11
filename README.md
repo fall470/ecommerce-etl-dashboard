@@ -35,27 +35,6 @@ Création d’un *dashboard interactif* sur *Looker Studio* permettant de suivre
 * La répartition des transactions par catégorie de produits.
 * Les revenus par méthode de paiement.
 
----
-
-## 📁 Arborescence du projet
-
-
-├── data
-│   ├── ecommerce.csv              # Données brutes (Kaggle)
-│   ├── ecommerce_clean.csv        # Données nettoyées
-├── exports
-│   ├── customer_segmentation.csv
-│   ├── product_category_analysis.csv
-│   ├── returns_analysis.csv
-│   ├── payment_method_analysis.csv
-│   └── fact_orders.csv
-├── notebooks
-│   ├── 01_preprocessing.ipynb
-│   └── 02_etl.ipynb
-├── README.md
-
-
-
 ## 🚀 Technologies utilisées
 
 * *Python (Pandas, NumPy)*
