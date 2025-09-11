@@ -1,6 +1,6 @@
 
 
-# 🛒 E-commerce Data Project
+# 🛒 E-commerce-etl-dashboard
 
 ## 📌 Description
 
