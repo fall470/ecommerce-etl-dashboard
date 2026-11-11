@@ -11,7 +11,7 @@
 | | |
 |---|---|
 | **Objectif** | Transformer des données e-commerce brutes en indicateurs exploitables pour la prise de décision |
-| **Données** | Dataset e-commerce public issu de Kaggle ([nom du dataset et nombre de lignes à compléter]) |
+| **Données** | Dataset e-commerce public issu de Kaggle  |
 | **Pipeline** | Extraction → nettoyage → transformation → export CSV → visualisation |
 | **Analyses** | Segmentation client, CLV, catégories de produits, moyens de paiement, retours clients |
 | **Livrable** | Notebook Jupyter + CSV analytiques + dashboard Looker Studio |
