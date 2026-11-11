@@ -11,11 +11,10 @@
 | | |
 |---|---|
 | **Objectif** | Transformer des données e-commerce brutes en indicateurs exploitables pour la prise de décision |
-| **Données** | Dataset e-commerce public issu de Kaggle  |
+| **Données** | Dataset e-commerce public issu de Kaggle |
 | **Pipeline** | Extraction → nettoyage → transformation → export CSV → visualisation |
 | **Analyses** | Segmentation client, CLV, catégories de produits, moyens de paiement, retours clients |
 | **Livrable** | Notebook Jupyter + CSV analytiques + dashboard Looker Studio |
-| **Contexte** |  projet personnel 
 
 ## Ce que le projet démontre
 
@@ -49,14 +48,12 @@ Chaque étape produit un fichier intermédiaire : on peut donc vérifier les don
 - Export du fichier nettoyé : `ecommerce_clean.csv`
 
 ### 2. Analyses et transformations
-
-| Analyse | Détail | 
-|---|---|---|
-| Segmentation client | Clients classés en Low / Mid / High Value | 
-| Customer Lifetime Value | CLV par client   |
-| Catégories de produits | Performance par catégorie | 
-| Moyens de paiement | Répartition et revenus par méthode | 
-| Retours clients | Analyse des retours | 
+- Segmentation client (Low / Mid / High Value) → `customer_segmentation.csv`
+- Calcul de la Customer Lifetime Value (CLV)
+- Analyse par catégorie de produits → `product_category_analysis.csv`
+- Analyse des méthodes de paiement
+- Étude des retours clients
+- Export des résultats dans plusieurs fichiers CSV
 
 ### 3. Dashboard Looker Studio
 Un dashboard interactif pour suivre :
@@ -65,63 +62,16 @@ Un dashboard interactif pour suivre :
 - la **répartition des transactions par catégorie** de produits
 - les **revenus par moyen de paiement**
 
-## Aperçu du dashboard
-
-📷 [Ajouter une capture : `![Dashboard](images/dashboard.png)`]
-
-
-
-## Résultats et enseignements
-
-> À compléter avec **tes vrais chiffres**, c'est ce qui rend le projet crédible.
-
-- Lignes avant / après nettoyage : **[X] → [Y]** ([Z] doublons supprimés)
-- Chiffre d'affaires total : **[valeur]**
-- Répartition des clients : **[X % Low · Y % Mid · Z % High Value]**
-- Catégorie la plus rentable : **[nom]**
-- Moyen de paiement dominant : **[nom, X %]**
-- Taux de retour : **[X %]**
-
-## Démarrage rapide
-
-Prérequis : Python 3 et Jupyter.
-
-```bash
-git clone [URL du dépôt]
-cd E-commerce-etl-dashboard
-pip install pandas jupyter
-jupyter notebook
-```
-
-Ouvrir le notebook `[nom du notebook].ipynb` et exécuter les cellules dans l'ordre. Les CSV sont générés dans `[dossier de sortie]`, puis importés dans Looker Studio.
-
-## Structure du projet
-
-```
-├── data/
-│   ├── [fichier brut]           # données brutes (Kaggle)
-│   └── ecommerce_clean.csv      # données nettoyées
-├── [notebook].ipynb             # pipeline ETL et analyses
-├── outputs/
-│   ├── customer_segmentation.csv
-│   ├── product_category_analysis.csv
-│   └── ...                      # autres CSV analytiques
-├── images/                      # captures du dashboard
-└── README.md
-```
-*(À adapter à ton arborescence réelle.)*
-
 ## Compétences mises en œuvre
 
 `Python` · `Pandas` · `ETL` · `Data Cleaning` · `Jupyter Notebook` · `Data Analysis` · `Segmentation client` · `Customer Lifetime Value` · `Looker Studio` · `Data Visualization` · `KPI` · `E-commerce Analytics`
 
 ## Limites et pistes d'amélioration
 
-- Le pipeline est lancé **manuellement** depuis un notebook. Piste : le transformer en script Python planifié (cron, Airflow) pour automatiser les mises à jour.
-- Les données sont **exportées en CSV** puis importées dans Looker Studio. Piste : les charger dans une base (PostgreSQL, BigQuery) pour un dashboard toujours à jour.
-- La segmentation repose sur des **seuils définis à la main**. Piste : la remplacer par un clustering (**K-Means**, analyse **RFM**).
-- Piste suivante : modèles de **Machine Learning** pour la prédiction des ventes, du churn et le scoring client.
+- Le pipeline s'exécute depuis un notebook. Piste : le transformer en script planifié pour automatiser les mises à jour.
+- Les résultats passent par des CSV. Piste : les charger dans une base de données pour un dashboard toujours à jour.
+- Piste suivante : enrichir avec du **Machine Learning** pour la prédiction des ventes et le scoring client.
 
 ## Auteur
 
-**Adama Fall** · [LinkedIn / email à ajouter]
+**Adama Fall**
