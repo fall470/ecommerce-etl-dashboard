@@ -50,13 +50,13 @@ Chaque étape produit un fichier intermédiaire : on peut donc vérifier les don
 
 ### 2. Analyses et transformations
 
-| Analyse | Détail | Fichier produit |
+| Analyse | Détail | 
 |---|---|---|
-| Segmentation client | Clients classés en Low / Mid / High Value ([critère à préciser]) | `customer_segmentation.csv` |
-| Customer Lifetime Value | CLV par client ([formule à préciser]) | [fichier à compléter] |
-| Catégories de produits | Performance par catégorie | `product_category_analysis.csv` |
-| Moyens de paiement | Répartition et revenus par méthode | [fichier à compléter] |
-| Retours clients | Analyse des retours | [fichier à compléter] |
+| Segmentation client | Clients classés en Low / Mid / High Value | 
+| Customer Lifetime Value | CLV par client   |
+| Catégories de produits | Performance par catégorie | 
+| Moyens de paiement | Répartition et revenus par méthode | 
+| Retours clients | Analyse des retours | 
 
 ### 3. Dashboard Looker Studio
 Un dashboard interactif pour suivre :
