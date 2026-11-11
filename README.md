@@ -15,7 +15,7 @@
 | **Pipeline** | Extraction → nettoyage → transformation → export CSV → visualisation |
 | **Analyses** | Segmentation client, CLV, catégories de produits, moyens de paiement, retours clients |
 | **Livrable** | Notebook Jupyter + CSV analytiques + dashboard Looker Studio |
-| **Contexte** | [Cours / projet personnel / formation : à compléter] |
+| **Contexte** |  projet personnel 
 
 ## Ce que le projet démontre
 
@@ -69,7 +69,7 @@ Un dashboard interactif pour suivre :
 
 📷 [Ajouter une capture : `![Dashboard](images/dashboard.png)`]
 
-🔗 Dashboard en ligne : [lien Looker Studio à ajouter, si public]
+
 
 ## Résultats et enseignements
 
